@@ -48,7 +48,7 @@ Permite:
 | **H1** | Configurar proyecto base (Spring Boot, Swagger, H2) | Santiago | 3 | Proyecto funcional con dependencias y estructura. |
 | **H2** | CRUD Propiedades + Validaciones | Andrés | 5 | Endpoints REST para propiedades con validaciones. |
 | **H3** | CRUD Propietarios y Arrendatarios | Yohan | 5 | Servicios y controladores con DTOs. |
-| **H4** | Registro y listado de Usuarios | Pablo | 4 | Endpoints `/users/register` y `/users` con validaciones y roles. |
+| **H4** | Registro y listado de Usuarios | Santiago | 4 | Endpoints `/users/register` y `/users` con validaciones y roles. |
 | **H5** | Paginación y filtros en Propiedades | Andrés | 3 | Soporte de `Pageable` y filtros por ciudad, precio, disponibilidad. |
 | **H6** | Manejo global de errores | Pablo | 2 | `@ControllerAdvice` con mensajes claros. |
 | **H7** | Documentación Swagger | Pablo | 2 | Swagger UI actualizado con todos los endpoints. |
