@@ -46,8 +46,8 @@ Permite:
 | ID | Historia | Asignado a | Story Points | Descripción |
 |----|-----------|-------------|---------------|--------------|
 | **H1** | Configurar proyecto base (Spring Boot, Swagger, H2) | Santiago | 2 | Proyecto funcional con dependencias y estructura. |
-| **H2** | CRUD Propiedades + Validaciones | Andrés | 5 | Endpoints REST para propiedades con validaciones. |
-| **H3** | CRUD Propietarios y Arrendatarios | Yohan | 5 | Servicios y controladores con DTOs. |
+| **H2** | CRUD Propiedades + Validaciones | Andrés | 4 | Endpoints REST para propiedades con validaciones. |
+| **H3** | CRUD Propietarios y Arrendatarios | Yohan | 4 | Servicios y controladores con DTOs. |
 | **H4** | Registro y listado de Usuarios | Santiago | 4 | Endpoints `/users/register` y `/users` con validaciones y roles. |
 | **H5** | Paginación y filtros en Propiedades | Andrés | 3 | Soporte de `Pageable` y filtros por ciudad, precio, disponibilidad. |
 | **H6** | Manejo global de errores | Pablo | 3 | `@ControllerAdvice` con mensajes claros. |
