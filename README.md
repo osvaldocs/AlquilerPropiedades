@@ -50,8 +50,8 @@ Permite:
 | **H3** | CRUD Propietarios y Arrendatarios | Yohan | 5 | Servicios y controladores con DTOs. |
 | **H4** | Registro y listado de Usuarios | Santiago | 4 | Endpoints `/users/register` y `/users` con validaciones y roles. |
 | **H5** | Paginación y filtros en Propiedades | Andrés | 3 | Soporte de `Pageable` y filtros por ciudad, precio, disponibilidad. |
-| **H6** | Manejo global de errores | Pablo | 2 | `@ControllerAdvice` con mensajes claros. |
-| **H7** | Documentación Swagger | Pablo | 2 | Swagger UI actualizado con todos los endpoints. |
+| **H6** | Manejo global de errores | Pablo | 3 | `@ControllerAdvice` con mensajes claros. |
+| **H7** | Documentación Swagger | Pablo | 3 | Swagger UI actualizado con todos los endpoints. |
 
 ---
 
