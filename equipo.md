@@ -96,3 +96,5 @@ Cuando una historia o tarea está lista:
 - Las tasks viven dentro del tablero y se linkean a la HU.  
 - Cada PR debe mencionar qué issue resuelve:
 
+## 7 . Cada HU debe tener **estimación de horas** registrada en el tablero para planificar el sprint.
+
