@@ -60,7 +60,6 @@ Incluye:
 
 ---
 
-## 🧠 Historias de Usuario
 
 | ID | Historia | Asignado | SP | Descripción |
 |----|----------|----------|----|-------------|
@@ -71,6 +70,14 @@ Incluye:
 | **H5** | Paginación y filtros | Andrés | 3 | Implementar `Pageable` + filtros combinados. |
 | **H6** | Manejo global de errores | Pablo | 3 | DTOs de error y `@ControllerAdvice`. |
 | **H7** | Documentación Swagger | Pablo | 3 | Anotaciones, tags, esquemas. |
+| **H8** | **Agregar MapStruct para conversión entre Entidades ↔ DTOs** | Pablo | 3 | Crear mappers, configurar plugin y reemplazar conversiones manuales. |
+
+---
+
+## 🧩 Integración de MapStruct
+
+MapStruct permite mapear automáticamente entidades ↔ DTOs sin escribir código repetitivo.
+
 
 ---
 
