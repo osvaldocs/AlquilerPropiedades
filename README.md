@@ -64,9 +64,9 @@ Incluye:
 
 | ID | Historia | Asignado | SP | Descripción |
 |----|----------|----------|----|-------------|
-| **H1** | Configurar proyecto + Arquitectura hexagonal | Santiago | 3 | Base del proyecto, Domain/Application/Infrastructure. |
+| **H1** | Configurar proyecto + Arquitectura hexagonal | Yohan | 3 | Base del proyecto, Domain/Application/Infrastructure. |
 | **H2** | CRUD Propiedades + Validaciones | Andrés | 4 | Endpoints REST usando puertos y servicios. |
-| **H3** | CRUD Propietarios y Arrendatarios | Yohan | 4 | Servicios, DTOs y adaptadores. |
+| **H3** | CRUD Propietarios y Arrendatarios | Santiago | 4 | Servicios, DTOs y adaptadores. |
 | **H4** | Registro y listado de usuarios | Santiago | 4 | Endpoints `/users/register` y `/users`. |
 | **H5** | Paginación y filtros | Andrés | 3 | Implementar `Pageable` + filtros combinados. |
 | **H6** | Manejo global de errores | Pablo | 3 | DTOs de error y `@ControllerAdvice`. |
