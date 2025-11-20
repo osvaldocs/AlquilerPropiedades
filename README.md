@@ -24,12 +24,14 @@ Incluye:
 
 ## 👥 Equipo y Roles
 
+
+
 | Integrante | Rol | Responsabilidad Principal |
 |-----------|------|----------------------------|
-| **Santiago Villa** | Líder Técnico | Configuración base, estructura hexagonal, H2, dependencias. |
-| **Andrés Niebles** | Backend Dev | CRUD de Propiedades, validaciones, filtros y paginación. |
-| **Yohan Exneider** | Backend Dev | CRUD de Propietarios y Arrendatarios, DTOs y servicios. |
-| **Pablo Campos** | API / Validaciones / Swagger | Adaptadores REST, validaciones, documentación y registro de usuarios. |
+| **Santiago Villa** | Líder Técnico | H3 y H4 — CRUD de Propietarios y Arrendatarios, DTOs, adaptadores, registro y listado de usuarios. |
+| **Andrés Niebles** | Backend Dev | H2 y H5 — CRUD de Propiedades, validaciones, filtros y paginación. |
+| **Yohan Exneider** | Backend Dev | H1 y H9 — Configuración base, arquitectura hexagonal, y test unitarios (Domain + Application). |
+| **Pablo Campos** | API / Validaciones / Swagger / MapStruct | H6, H7 y H8 — Manejo global de errores, documentación Swagger y configuración/uso de MapStruct. |
 
 ---
 
@@ -61,6 +63,8 @@ Incluye:
 ---
 
 
+## 🧠 Historias de Usuario
+
 | ID | Historia | Asignado | SP | Descripción |
 |----|----------|----------|----|-------------|
 | **H1** | Configurar proyecto + Arquitectura hexagonal | Yohan | 3 | Base del proyecto, Domain/Application/Infrastructure. |
@@ -70,8 +74,8 @@ Incluye:
 | **H5** | Paginación y filtros | Andrés | 3 | Implementar `Pageable` + filtros combinados. |
 | **H6** | Manejo global de errores | Pablo | 3 | DTOs de error y `@ControllerAdvice`. |
 | **H7** | Documentación Swagger | Pablo | 3 | Anotaciones, tags, esquemas. |
-| **H8** | **Agregar MapStruct para conversión entre Entidades ↔ DTOs** | Pablo | 3 | Crear mappers, configurar plugin y reemplazar conversiones manuales. |
-
+| **H8** | Agregar MapStruct para conversión entre Entidades ↔ DTOs | Pablo | 3 | Crear mappers, configurar plugin y reemplazar conversiones manuales. |
+| **H9** | **Test unitarios (Domain + Application)** | Yohan | 4 | Configurar junit + pruebas de servicios, puertos y validaciones. |
 ---
 
 ## 🧩 Integración de MapStruct
@@ -83,10 +87,11 @@ MapStruct permite mapear automáticamente entidades ↔ DTOs sin escribir códig
 
 ## 🕓 Estimación por Sprint
 
+
 | Sprint | Historias | Total SP | Objetivo |
 |--------|-----------|-----------|----------|
-| **Sprint 1** | H1 – H4 | 15 SP | Base + CRUD principales + usuarios. |
-| **Sprint 2** | H5 – H7 | 9 SP | Filtros, paginación, documentación y errores. |
+| **Sprint 1** | H1 – H5 | 18 SP | Base + CRUD principales + usuarios + filtros básicos. |
+| **Sprint 2** | H6 – H9 | 13 SP | Errores, documentación, MapStruct y test unitarios. |
 
 ---
 
